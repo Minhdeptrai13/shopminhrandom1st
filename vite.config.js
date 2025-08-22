@@ -4,7 +4,10 @@ import laravel from 'laravel-vite-plugin';
 export default defineConfig({
     plugins: [
         laravel({
-            input: [], // ❌ bỏ trống, không cần entry
+            input: [
+                'resources/css/app.css',
+                'resources/js/app.js'
+            ],
             refresh: true,
         }),
     ],
