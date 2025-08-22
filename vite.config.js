@@ -5,8 +5,8 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/assets/css/app.css', // Đường dẫn đến file CSS
-                'resources/assets/css/app.js'
+                'resources/css/app.css',   // CSS đúng
+                'resources/js/app.js'      // JS đúng
             ],
             refresh: true,
         }),
